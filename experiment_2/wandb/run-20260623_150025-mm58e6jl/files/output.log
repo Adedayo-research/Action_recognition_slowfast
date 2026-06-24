@@ -1,0 +1,57 @@
+
+--- Initializing Active Sweep Run on Target Device: cuda ---
+Loading pretrained SlowFast R50 from Torch Hub...
+Using cache found in C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main
+Indexing train set...
+Safely indexed 3319 action points in train split.
+Indexing valid set...
+Safely indexed 985 action points in valid split.
+C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py:202: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py:214: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 0 | Batch 0/208 | Loss: 2.9305
+Epoch 0 | Batch 5/208 | Loss: 2.7732
+Epoch 0 | Batch 10/208 | Loss: 2.6430
+Epoch 0 | Batch 15/208 | Loss: 2.5377
+Epoch 0 | Batch 20/208 | Loss: 2.4709
+Epoch 0 | Batch 25/208 | Loss: 2.3540
+Epoch 0 | Batch 30/208 | Loss: 2.4539
+Epoch 0 | Batch 35/208 | Loss: 2.2084
+Epoch 0 | Batch 40/208 | Loss: 2.1213
+Epoch 0 | Batch 45/208 | Loss: 1.9808
+Epoch 0 | Batch 50/208 | Loss: 2.1483
+Epoch 0 | Batch 55/208 | Loss: 2.5779
+Epoch 0 | Batch 60/208 | Loss: 2.0103
+Epoch 0 | Batch 65/208 | Loss: 2.4273
+Epoch 0 | Batch 70/208 | Loss: 2.3426
+Epoch 0 | Batch 75/208 | Loss: 2.4488
+Epoch 0 | Batch 80/208 | Loss: 2.0334
+Epoch 0 | Batch 85/208 | Loss: 2.2926
+Epoch 0 | Batch 90/208 | Loss: 2.2820
+Epoch 0 | Batch 95/208 | Loss: 2.1606
+Epoch 0 | Batch 100/208 | Loss: 2.4688
+Epoch 0 | Batch 105/208 | Loss: 1.9613
+Epoch 0 | Batch 110/208 | Loss: 1.9690
+Epoch 0 | Batch 115/208 | Loss: 2.2072
+Epoch 0 | Batch 120/208 | Loss: 2.1818
+Epoch 0 | Batch 125/208 | Loss: 1.9201
+Epoch 0 | Batch 130/208 | Loss: 2.2735
+Epoch 0 | Batch 135/208 | Loss: 2.4968
+Epoch 0 | Batch 140/208 | Loss: 2.0374
+Epoch 0 | Batch 145/208 | Loss: 2.5488
+Epoch 0 | Batch 150/208 | Loss: 2.1531
+Epoch 0 | Batch 155/208 | Loss: 1.9821
+Epoch 0 | Batch 160/208 | Loss: 2.1467
+Epoch 0 | Batch 165/208 | Loss: 2.7859
+Epoch 0 | Batch 170/208 | Loss: 2.4482
+Epoch 0 | Batch 175/208 | Loss: 2.6876
+Epoch 0 | Batch 180/208 | Loss: 2.7774
+Epoch 0 | Batch 185/208 | Loss: 2.3951
+Epoch 0 | Batch 190/208 | Loss: 2.4282
+Epoch 0 | Batch 195/208 | Loss: 2.8082
+Epoch 0 | Batch 200/208 | Loss: 1.8979
+Epoch 0 | Batch 205/208 | Loss: 2.0452
+C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py:183: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+--- Epoch 0 Complete | Val Loss: 2.2780 | Val Accuracy: 27.82% ---

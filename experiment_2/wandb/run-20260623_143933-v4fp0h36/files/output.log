@@ -1,0 +1,683 @@
+
+--- Initializing Active Sweep Run on Target Device: cuda ---
+Loading pretrained SlowFast R50 from Torch Hub...
+Using cache found in C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main
+Indexing train set...
+Safely indexed 3319 action points in train split.
+Indexing valid set...
+Safely indexed 985 action points in valid split.
+Epoch 0 | Batch 0/830 | Loss: 2.7708
+Epoch 0 | Batch 5/830 | Loss: 2.8883
+Epoch 0 | Batch 10/830 | Loss: 2.6871
+Epoch 0 | Batch 15/830 | Loss: 2.4343
+Epoch 0 | Batch 20/830 | Loss: 2.4597
+Epoch 0 | Batch 25/830 | Loss: 2.9100
+Epoch 0 | Batch 30/830 | Loss: 2.0826
+Epoch 0 | Batch 35/830 | Loss: 2.7514
+Epoch 0 | Batch 40/830 | Loss: 2.5869
+Epoch 0 | Batch 45/830 | Loss: 2.0297
+Epoch 0 | Batch 50/830 | Loss: 2.4028
+Epoch 0 | Batch 55/830 | Loss: 1.8604
+Epoch 0 | Batch 60/830 | Loss: 2.3954
+Epoch 0 | Batch 65/830 | Loss: 2.5083
+Epoch 0 | Batch 70/830 | Loss: 2.0363
+Epoch 0 | Batch 75/830 | Loss: 2.2180
+Epoch 0 | Batch 80/830 | Loss: 2.6791
+Epoch 0 | Batch 85/830 | Loss: 2.4092
+Epoch 0 | Batch 90/830 | Loss: 2.5414
+Epoch 0 | Batch 95/830 | Loss: 1.4728
+Epoch 0 | Batch 100/830 | Loss: 2.0625
+Epoch 0 | Batch 105/830 | Loss: 2.3821
+Epoch 0 | Batch 110/830 | Loss: 3.4715
+Epoch 0 | Batch 115/830 | Loss: 2.9332
+Epoch 0 | Batch 120/830 | Loss: 2.4345
+Epoch 0 | Batch 125/830 | Loss: 1.7477
+Epoch 0 | Batch 130/830 | Loss: 2.0768
+Epoch 0 | Batch 135/830 | Loss: 1.6518
+Epoch 0 | Batch 140/830 | Loss: 1.6849
+Epoch 0 | Batch 145/830 | Loss: 2.6606
+Epoch 0 | Batch 150/830 | Loss: 3.1115
+Epoch 0 | Batch 155/830 | Loss: 3.0718
+Epoch 0 | Batch 160/830 | Loss: 2.0346
+Epoch 0 | Batch 165/830 | Loss: 2.2827
+Epoch 0 | Batch 170/830 | Loss: 2.4526
+Epoch 0 | Batch 175/830 | Loss: 2.4590
+Epoch 0 | Batch 180/830 | Loss: 1.5954
+Epoch 0 | Batch 185/830 | Loss: 2.1106
+Epoch 0 | Batch 190/830 | Loss: 1.3689
+Epoch 0 | Batch 195/830 | Loss: 2.9041
+Epoch 0 | Batch 200/830 | Loss: 2.6081
+Epoch 0 | Batch 205/830 | Loss: 3.1862
+Epoch 0 | Batch 210/830 | Loss: 1.7817
+Epoch 0 | Batch 215/830 | Loss: 2.1627
+Epoch 0 | Batch 220/830 | Loss: 1.6292
+Epoch 0 | Batch 225/830 | Loss: 2.5283
+Epoch 0 | Batch 230/830 | Loss: 2.7081
+Epoch 0 | Batch 235/830 | Loss: 2.3422
+Epoch 0 | Batch 240/830 | Loss: 2.4054
+Epoch 0 | Batch 245/830 | Loss: 1.7036
+Epoch 0 | Batch 250/830 | Loss: 2.3893
+Epoch 0 | Batch 255/830 | Loss: 1.6843
+Epoch 0 | Batch 260/830 | Loss: 1.8556
+Epoch 0 | Batch 265/830 | Loss: 1.3122
+Epoch 0 | Batch 270/830 | Loss: 2.0611
+Epoch 0 | Batch 275/830 | Loss: 2.0427
+Epoch 0 | Batch 280/830 | Loss: 2.3337
+Epoch 0 | Batch 285/830 | Loss: 1.2502
+Epoch 0 | Batch 290/830 | Loss: 1.2673
+Epoch 0 | Batch 295/830 | Loss: 2.6527
+Epoch 0 | Batch 300/830 | Loss: 1.9034
+Epoch 0 | Batch 305/830 | Loss: 1.8804
+Epoch 0 | Batch 310/830 | Loss: 2.6028
+Epoch 0 | Batch 315/830 | Loss: 1.8334
+Epoch 0 | Batch 320/830 | Loss: 1.3998
+Epoch 0 | Batch 325/830 | Loss: 1.7984
+Epoch 0 | Batch 330/830 | Loss: 1.5221
+Epoch 0 | Batch 335/830 | Loss: 2.1559
+Epoch 0 | Batch 340/830 | Loss: 2.8943
+Epoch 0 | Batch 345/830 | Loss: 2.2969
+Epoch 0 | Batch 350/830 | Loss: 1.4842
+Epoch 0 | Batch 355/830 | Loss: 2.2625
+Epoch 0 | Batch 360/830 | Loss: 2.7755
+Epoch 0 | Batch 365/830 | Loss: 1.7014
+Epoch 0 | Batch 370/830 | Loss: 2.0093
+Epoch 0 | Batch 375/830 | Loss: 3.0578
+Epoch 0 | Batch 380/830 | Loss: 2.5418
+Epoch 0 | Batch 385/830 | Loss: 1.3699
+Epoch 0 | Batch 390/830 | Loss: 2.4530
+Epoch 0 | Batch 395/830 | Loss: 2.9171
+Epoch 0 | Batch 400/830 | Loss: 2.1803
+Epoch 0 | Batch 405/830 | Loss: 2.1817
+Epoch 0 | Batch 410/830 | Loss: 2.5248
+Epoch 0 | Batch 415/830 | Loss: 1.4352
+Epoch 0 | Batch 420/830 | Loss: 1.8537
+Epoch 0 | Batch 425/830 | Loss: 2.0694
+Epoch 0 | Batch 430/830 | Loss: 2.0994
+Epoch 0 | Batch 435/830 | Loss: 1.8720
+Epoch 0 | Batch 440/830 | Loss: 1.9697
+Epoch 0 | Batch 445/830 | Loss: 1.2222
+Epoch 0 | Batch 450/830 | Loss: 2.1032
+Epoch 0 | Batch 455/830 | Loss: 2.1718
+Epoch 0 | Batch 460/830 | Loss: 1.4465
+Epoch 0 | Batch 465/830 | Loss: 2.0308
+Epoch 0 | Batch 470/830 | Loss: 2.9001
+Epoch 0 | Batch 475/830 | Loss: 2.0926
+Epoch 0 | Batch 480/830 | Loss: 2.6029
+Epoch 0 | Batch 485/830 | Loss: 1.9181
+Epoch 0 | Batch 490/830 | Loss: 1.6647
+Epoch 0 | Batch 495/830 | Loss: 1.8600
+Epoch 0 | Batch 500/830 | Loss: 1.2970
+Epoch 0 | Batch 505/830 | Loss: 2.0313
+Epoch 0 | Batch 510/830 | Loss: 2.6556
+Epoch 0 | Batch 515/830 | Loss: 1.5429
+Epoch 0 | Batch 520/830 | Loss: 2.3017
+Epoch 0 | Batch 525/830 | Loss: 2.8073
+Epoch 0 | Batch 530/830 | Loss: 1.4770
+Epoch 0 | Batch 535/830 | Loss: 2.4444
+Epoch 0 | Batch 540/830 | Loss: 2.4163
+Epoch 0 | Batch 545/830 | Loss: 1.6998
+Epoch 0 | Batch 550/830 | Loss: 1.7282
+Epoch 0 | Batch 555/830 | Loss: 2.4984
+Epoch 0 | Batch 560/830 | Loss: 2.4614
+Epoch 0 | Batch 565/830 | Loss: 1.3486
+Epoch 0 | Batch 570/830 | Loss: 2.2610
+Epoch 0 | Batch 575/830 | Loss: 2.4340
+Epoch 0 | Batch 580/830 | Loss: 2.0004
+Epoch 0 | Batch 585/830 | Loss: 2.4197
+Epoch 0 | Batch 590/830 | Loss: 1.5428
+Epoch 0 | Batch 595/830 | Loss: 2.0497
+Epoch 0 | Batch 600/830 | Loss: 1.6936
+Epoch 0 | Batch 605/830 | Loss: 2.7387
+Epoch 0 | Batch 610/830 | Loss: 2.5348
+Epoch 0 | Batch 615/830 | Loss: 1.6965
+Epoch 0 | Batch 620/830 | Loss: 1.8835
+Epoch 0 | Batch 625/830 | Loss: 2.4002
+Epoch 0 | Batch 630/830 | Loss: 2.2879
+Epoch 0 | Batch 635/830 | Loss: 1.5967
+Epoch 0 | Batch 640/830 | Loss: 2.9517
+Epoch 0 | Batch 645/830 | Loss: 2.1150
+Epoch 0 | Batch 650/830 | Loss: 1.4782
+Epoch 0 | Batch 655/830 | Loss: 2.4793
+Epoch 0 | Batch 660/830 | Loss: 2.0143
+Epoch 0 | Batch 665/830 | Loss: 2.4311
+Epoch 0 | Batch 670/830 | Loss: 1.8002
+Epoch 0 | Batch 675/830 | Loss: 2.4429
+Epoch 0 | Batch 680/830 | Loss: 2.3219
+Epoch 0 | Batch 685/830 | Loss: 2.5277
+Epoch 0 | Batch 690/830 | Loss: 2.5853
+Epoch 0 | Batch 695/830 | Loss: 2.1961
+Epoch 0 | Batch 700/830 | Loss: 2.6046
+Epoch 0 | Batch 705/830 | Loss: 2.5519
+Epoch 0 | Batch 710/830 | Loss: 1.9664
+Epoch 0 | Batch 715/830 | Loss: 2.5656
+Epoch 0 | Batch 720/830 | Loss: 1.1904
+Epoch 0 | Batch 725/830 | Loss: 2.8769
+Epoch 0 | Batch 730/830 | Loss: 1.9332
+Epoch 0 | Batch 735/830 | Loss: 2.2157
+Epoch 0 | Batch 740/830 | Loss: 2.4144
+Epoch 0 | Batch 745/830 | Loss: 2.1369
+Epoch 0 | Batch 750/830 | Loss: 1.4648
+Epoch 0 | Batch 755/830 | Loss: 2.3435
+Epoch 0 | Batch 760/830 | Loss: 1.7436
+Epoch 0 | Batch 765/830 | Loss: 1.9867
+Epoch 0 | Batch 770/830 | Loss: 2.3894
+Epoch 0 | Batch 775/830 | Loss: 2.7032
+Epoch 0 | Batch 780/830 | Loss: 1.7040
+Epoch 0 | Batch 785/830 | Loss: 2.9946
+Epoch 0 | Batch 790/830 | Loss: 1.9206
+Epoch 0 | Batch 795/830 | Loss: 1.6127
+Epoch 0 | Batch 800/830 | Loss: 2.7428
+Epoch 0 | Batch 805/830 | Loss: 2.0543
+Epoch 0 | Batch 810/830 | Loss: 2.0252
+Epoch 0 | Batch 815/830 | Loss: 1.9079
+Epoch 0 | Batch 820/830 | Loss: 2.5329
+Epoch 0 | Batch 825/830 | Loss: 2.5023
+--- Epoch 0 Complete | Val Loss: 2.2831 | Val Accuracy: 27.82% ---
+Epoch 1 | Batch 0/830 | Loss: 1.6115
+Epoch 1 | Batch 5/830 | Loss: 1.8255
+Epoch 1 | Batch 10/830 | Loss: 1.7125
+Epoch 1 | Batch 15/830 | Loss: 1.9205
+Epoch 1 | Batch 20/830 | Loss: 2.0955
+Epoch 1 | Batch 25/830 | Loss: 2.2288
+Epoch 1 | Batch 30/830 | Loss: 3.1900
+Epoch 1 | Batch 35/830 | Loss: 1.9544
+Epoch 1 | Batch 40/830 | Loss: 2.2631
+Epoch 1 | Batch 45/830 | Loss: 1.4048
+Epoch 1 | Batch 50/830 | Loss: 2.2638
+Epoch 1 | Batch 55/830 | Loss: 2.6350
+Epoch 1 | Batch 60/830 | Loss: 3.2840
+Epoch 1 | Batch 65/830 | Loss: 2.2302
+Epoch 1 | Batch 70/830 | Loss: 3.0630
+Epoch 1 | Batch 75/830 | Loss: 2.5810
+Epoch 1 | Batch 80/830 | Loss: 2.1744
+Epoch 1 | Batch 85/830 | Loss: 3.3507
+Epoch 1 | Batch 90/830 | Loss: 3.6775
+Epoch 1 | Batch 95/830 | Loss: 1.9829
+Epoch 1 | Batch 100/830 | Loss: 2.0193
+Epoch 1 | Batch 105/830 | Loss: 1.6776
+Epoch 1 | Batch 110/830 | Loss: 3.1405
+Epoch 1 | Batch 115/830 | Loss: 1.6642
+Epoch 1 | Batch 120/830 | Loss: 2.1006
+Epoch 1 | Batch 125/830 | Loss: 1.6594
+Epoch 1 | Batch 130/830 | Loss: 2.0526
+Epoch 1 | Batch 135/830 | Loss: 2.7765
+Epoch 1 | Batch 140/830 | Loss: 3.1342
+Epoch 1 | Batch 145/830 | Loss: 1.8348
+Epoch 1 | Batch 150/830 | Loss: 1.6563
+Epoch 1 | Batch 155/830 | Loss: 2.1162
+Epoch 1 | Batch 160/830 | Loss: 2.5464
+Epoch 1 | Batch 165/830 | Loss: 2.0481
+Epoch 1 | Batch 170/830 | Loss: 1.9017
+Epoch 1 | Batch 175/830 | Loss: 2.3510
+Epoch 1 | Batch 180/830 | Loss: 2.6568
+Epoch 1 | Batch 185/830 | Loss: 1.7668
+Epoch 1 | Batch 190/830 | Loss: 1.7261
+Epoch 1 | Batch 195/830 | Loss: 1.9664
+Epoch 1 | Batch 200/830 | Loss: 1.7216
+Epoch 1 | Batch 205/830 | Loss: 1.3304
+Epoch 1 | Batch 210/830 | Loss: 2.2219
+Epoch 1 | Batch 215/830 | Loss: 1.9560
+Epoch 1 | Batch 220/830 | Loss: 2.1198
+Epoch 1 | Batch 225/830 | Loss: 2.3842
+Epoch 1 | Batch 230/830 | Loss: 3.0334
+Epoch 1 | Batch 235/830 | Loss: 2.9073
+Epoch 1 | Batch 240/830 | Loss: 2.8857
+Epoch 1 | Batch 245/830 | Loss: 2.0344
+Epoch 1 | Batch 250/830 | Loss: 2.5165
+Epoch 1 | Batch 255/830 | Loss: 2.1136
+Epoch 1 | Batch 260/830 | Loss: 2.4943
+Epoch 1 | Batch 265/830 | Loss: 2.0599
+Epoch 1 | Batch 270/830 | Loss: 2.0005
+Epoch 1 | Batch 275/830 | Loss: 3.0317
+Epoch 1 | Batch 280/830 | Loss: 2.6372
+Epoch 1 | Batch 285/830 | Loss: 2.4413
+Epoch 1 | Batch 290/830 | Loss: 2.4139
+Epoch 1 | Batch 295/830 | Loss: 2.4459
+Epoch 1 | Batch 300/830 | Loss: 2.3595
+Epoch 1 | Batch 305/830 | Loss: 2.9395
+Epoch 1 | Batch 310/830 | Loss: 2.3578
+Epoch 1 | Batch 315/830 | Loss: 2.1640
+Epoch 1 | Batch 320/830 | Loss: 2.0705
+Epoch 1 | Batch 325/830 | Loss: 1.9906
+Epoch 1 | Batch 330/830 | Loss: 1.5382
+Epoch 1 | Batch 335/830 | Loss: 1.5578
+Epoch 1 | Batch 340/830 | Loss: 2.3355
+Epoch 1 | Batch 345/830 | Loss: 2.1076
+Epoch 1 | Batch 350/830 | Loss: 2.1790
+Epoch 1 | Batch 355/830 | Loss: 2.2584
+Epoch 1 | Batch 360/830 | Loss: 2.9212
+Epoch 1 | Batch 365/830 | Loss: 2.4954
+Epoch 1 | Batch 370/830 | Loss: 3.1476
+Epoch 1 | Batch 375/830 | Loss: 1.6859
+Epoch 1 | Batch 380/830 | Loss: 1.3957
+Epoch 1 | Batch 385/830 | Loss: 2.3089
+Epoch 1 | Batch 390/830 | Loss: 1.4220
+Epoch 1 | Batch 395/830 | Loss: 2.2865
+Epoch 1 | Batch 400/830 | Loss: 1.5280
+Epoch 1 | Batch 405/830 | Loss: 2.1571
+Epoch 1 | Batch 410/830 | Loss: 2.3508
+Epoch 1 | Batch 415/830 | Loss: 1.4831
+Epoch 1 | Batch 420/830 | Loss: 2.8778
+Epoch 1 | Batch 425/830 | Loss: 1.2645
+Epoch 1 | Batch 430/830 | Loss: 3.2099
+Epoch 1 | Batch 435/830 | Loss: 1.7690
+Epoch 1 | Batch 440/830 | Loss: 2.6457
+Epoch 1 | Batch 445/830 | Loss: 1.7023
+Epoch 1 | Batch 450/830 | Loss: 2.3100
+Epoch 1 | Batch 455/830 | Loss: 2.8375
+Epoch 1 | Batch 460/830 | Loss: 1.9589
+Epoch 1 | Batch 465/830 | Loss: 1.8245
+Epoch 1 | Batch 470/830 | Loss: 1.9022
+Epoch 1 | Batch 475/830 | Loss: 2.5765
+Epoch 1 | Batch 480/830 | Loss: 2.0916
+Epoch 1 | Batch 485/830 | Loss: 3.0232
+Epoch 1 | Batch 490/830 | Loss: 1.9955
+Epoch 1 | Batch 495/830 | Loss: 1.9799
+Epoch 1 | Batch 500/830 | Loss: 2.3209
+Epoch 1 | Batch 505/830 | Loss: 2.8134
+Epoch 1 | Batch 510/830 | Loss: 1.9273
+Epoch 1 | Batch 515/830 | Loss: 1.4019
+Epoch 1 | Batch 520/830 | Loss: 2.1086
+Epoch 1 | Batch 525/830 | Loss: 3.1554
+Epoch 1 | Batch 530/830 | Loss: 2.6974
+Epoch 1 | Batch 535/830 | Loss: 1.5407
+Epoch 1 | Batch 540/830 | Loss: 2.3017
+Epoch 1 | Batch 545/830 | Loss: 2.5432
+Epoch 1 | Batch 550/830 | Loss: 2.6753
+Epoch 1 | Batch 555/830 | Loss: 3.4034
+Epoch 1 | Batch 560/830 | Loss: 2.4694
+Epoch 1 | Batch 565/830 | Loss: 2.0334
+Epoch 1 | Batch 570/830 | Loss: 1.8038
+Epoch 1 | Batch 575/830 | Loss: 1.7444
+Epoch 1 | Batch 580/830 | Loss: 2.3688
+Epoch 1 | Batch 585/830 | Loss: 2.3759
+Epoch 1 | Batch 590/830 | Loss: 2.6127
+Epoch 1 | Batch 595/830 | Loss: 2.9225
+Epoch 1 | Batch 600/830 | Loss: 2.1767
+Epoch 1 | Batch 605/830 | Loss: 1.6301
+Epoch 1 | Batch 610/830 | Loss: 1.7668
+Epoch 1 | Batch 615/830 | Loss: 1.3841
+Epoch 1 | Batch 620/830 | Loss: 1.7627
+Epoch 1 | Batch 625/830 | Loss: 2.6695
+Epoch 1 | Batch 630/830 | Loss: 1.7280
+Epoch 1 | Batch 635/830 | Loss: 2.1724
+Epoch 1 | Batch 640/830 | Loss: 1.6859
+Epoch 1 | Batch 645/830 | Loss: 2.6391
+Epoch 1 | Batch 650/830 | Loss: 2.6473
+Epoch 1 | Batch 655/830 | Loss: 1.6315
+Epoch 1 | Batch 660/830 | Loss: 2.5107
+Epoch 1 | Batch 665/830 | Loss: 1.9536
+Epoch 1 | Batch 670/830 | Loss: 2.1276
+Epoch 1 | Batch 675/830 | Loss: 2.3612
+Epoch 1 | Batch 680/830 | Loss: 2.8631
+Epoch 1 | Batch 685/830 | Loss: 2.1172
+Epoch 1 | Batch 690/830 | Loss: 2.3606
+Epoch 1 | Batch 695/830 | Loss: 2.0998
+Epoch 1 | Batch 700/830 | Loss: 1.6149
+Epoch 1 | Batch 705/830 | Loss: 1.3061
+Epoch 1 | Batch 710/830 | Loss: 2.1476
+Epoch 1 | Batch 715/830 | Loss: 2.2217
+Epoch 1 | Batch 720/830 | Loss: 2.0604
+Epoch 1 | Batch 725/830 | Loss: 2.4290
+Epoch 1 | Batch 730/830 | Loss: 1.8566
+Epoch 1 | Batch 735/830 | Loss: 1.3717
+Epoch 1 | Batch 740/830 | Loss: 2.0712
+Epoch 1 | Batch 745/830 | Loss: 1.7337
+Epoch 1 | Batch 750/830 | Loss: 2.2356
+Epoch 1 | Batch 755/830 | Loss: 2.1216
+Epoch 1 | Batch 760/830 | Loss: 1.9361
+Epoch 1 | Batch 765/830 | Loss: 2.4149
+Epoch 1 | Batch 770/830 | Loss: 2.4057
+Epoch 1 | Batch 775/830 | Loss: 2.3133
+Epoch 1 | Batch 780/830 | Loss: 2.2887
+Epoch 1 | Batch 785/830 | Loss: 2.3766
+Epoch 1 | Batch 790/830 | Loss: 2.0756
+Epoch 1 | Batch 795/830 | Loss: 2.2622
+Epoch 1 | Batch 800/830 | Loss: 2.4552
+Epoch 1 | Batch 805/830 | Loss: 1.9106
+Epoch 1 | Batch 810/830 | Loss: 2.4915
+Epoch 1 | Batch 815/830 | Loss: 2.1262
+Epoch 1 | Batch 820/830 | Loss: 1.9186
+Epoch 1 | Batch 825/830 | Loss: 1.9725
+--- Epoch 1 Complete | Val Loss: 2.2671 | Val Accuracy: 27.82% ---
+Epoch 2 | Batch 0/830 | Loss: 2.5201
+Epoch 2 | Batch 5/830 | Loss: 1.4273
+Epoch 2 | Batch 10/830 | Loss: 1.9745
+Epoch 2 | Batch 15/830 | Loss: 2.3016
+Epoch 2 | Batch 20/830 | Loss: 2.0711
+Epoch 2 | Batch 25/830 | Loss: 2.7794
+Epoch 2 | Batch 30/830 | Loss: 2.6537
+Epoch 2 | Batch 35/830 | Loss: 2.1130
+Epoch 2 | Batch 40/830 | Loss: 1.7192
+Epoch 2 | Batch 45/830 | Loss: 1.5993
+Epoch 2 | Batch 50/830 | Loss: 2.5843
+Epoch 2 | Batch 55/830 | Loss: 2.6858
+Epoch 2 | Batch 60/830 | Loss: 2.4344
+Epoch 2 | Batch 65/830 | Loss: 2.1071
+Epoch 2 | Batch 70/830 | Loss: 2.4812
+Epoch 2 | Batch 75/830 | Loss: 2.9239
+Epoch 2 | Batch 80/830 | Loss: 1.5208
+Epoch 2 | Batch 85/830 | Loss: 2.1334
+Epoch 2 | Batch 90/830 | Loss: 2.4840
+Epoch 2 | Batch 95/830 | Loss: 1.7837
+Epoch 2 | Batch 100/830 | Loss: 2.5365
+Epoch 2 | Batch 105/830 | Loss: 2.7831
+Epoch 2 | Batch 110/830 | Loss: 1.7748
+Epoch 2 | Batch 115/830 | Loss: 2.3664
+Epoch 2 | Batch 120/830 | Loss: 2.1024
+Epoch 2 | Batch 125/830 | Loss: 2.5406
+Epoch 2 | Batch 130/830 | Loss: 2.0785
+Epoch 2 | Batch 135/830 | Loss: 1.6024
+Epoch 2 | Batch 140/830 | Loss: 2.5920
+Epoch 2 | Batch 145/830 | Loss: 1.9222
+Epoch 2 | Batch 150/830 | Loss: 1.4745
+Epoch 2 | Batch 155/830 | Loss: 1.8642
+Epoch 2 | Batch 160/830 | Loss: 2.3504
+Epoch 2 | Batch 165/830 | Loss: 2.3094
+Epoch 2 | Batch 170/830 | Loss: 2.3562
+Epoch 2 | Batch 175/830 | Loss: 1.7701
+Epoch 2 | Batch 180/830 | Loss: 1.8486
+Epoch 2 | Batch 185/830 | Loss: 1.8440
+Epoch 2 | Batch 190/830 | Loss: 2.4974
+Epoch 2 | Batch 195/830 | Loss: 2.8579
+Epoch 2 | Batch 200/830 | Loss: 1.3799
+Epoch 2 | Batch 205/830 | Loss: 1.7625
+Epoch 2 | Batch 210/830 | Loss: 1.6898
+Epoch 2 | Batch 215/830 | Loss: 1.3122
+Epoch 2 | Batch 220/830 | Loss: 2.4974
+Epoch 2 | Batch 225/830 | Loss: 2.9687
+Epoch 2 | Batch 230/830 | Loss: 2.3950
+Epoch 2 | Batch 235/830 | Loss: 2.4726
+Epoch 2 | Batch 240/830 | Loss: 2.9221
+Epoch 2 | Batch 245/830 | Loss: 1.8384
+Epoch 2 | Batch 250/830 | Loss: 2.3610
+Epoch 2 | Batch 255/830 | Loss: 2.3070
+Epoch 2 | Batch 260/830 | Loss: 2.2960
+Epoch 2 | Batch 265/830 | Loss: 3.4302
+Epoch 2 | Batch 270/830 | Loss: 2.4336
+Epoch 2 | Batch 275/830 | Loss: 2.4757
+Epoch 2 | Batch 280/830 | Loss: 2.0927
+Epoch 2 | Batch 285/830 | Loss: 2.5371
+Epoch 2 | Batch 290/830 | Loss: 2.4370
+Epoch 2 | Batch 295/830 | Loss: 2.4069
+Epoch 2 | Batch 300/830 | Loss: 1.2790
+Epoch 2 | Batch 305/830 | Loss: 1.7625
+Epoch 2 | Batch 310/830 | Loss: 1.5952
+Epoch 2 | Batch 315/830 | Loss: 2.1979
+Epoch 2 | Batch 320/830 | Loss: 3.7498
+Epoch 2 | Batch 325/830 | Loss: 2.1920
+Epoch 2 | Batch 330/830 | Loss: 2.2500
+Epoch 2 | Batch 335/830 | Loss: 1.7287
+Epoch 2 | Batch 340/830 | Loss: 2.8105
+Epoch 2 | Batch 345/830 | Loss: 3.0712
+Epoch 2 | Batch 350/830 | Loss: 1.9376
+Epoch 2 | Batch 355/830 | Loss: 2.2440
+Epoch 2 | Batch 360/830 | Loss: 1.6926
+Epoch 2 | Batch 365/830 | Loss: 2.0853
+Epoch 2 | Batch 370/830 | Loss: 2.2372
+Epoch 2 | Batch 375/830 | Loss: 1.8982
+Epoch 2 | Batch 380/830 | Loss: 2.4285
+Epoch 2 | Batch 385/830 | Loss: 2.0718
+Epoch 2 | Batch 390/830 | Loss: 2.6742
+Epoch 2 | Batch 395/830 | Loss: 2.0366
+Epoch 2 | Batch 400/830 | Loss: 2.7069
+Epoch 2 | Batch 405/830 | Loss: 2.0813
+Epoch 2 | Batch 410/830 | Loss: 2.1493
+Epoch 2 | Batch 415/830 | Loss: 2.3225
+Epoch 2 | Batch 420/830 | Loss: 1.5301
+Epoch 2 | Batch 425/830 | Loss: 3.1201
+Epoch 2 | Batch 430/830 | Loss: 3.1568
+Epoch 2 | Batch 435/830 | Loss: 1.9013
+Epoch 2 | Batch 440/830 | Loss: 2.7188
+Epoch 2 | Batch 445/830 | Loss: 2.3669
+Epoch 2 | Batch 450/830 | Loss: 2.8918
+Epoch 2 | Batch 455/830 | Loss: 2.5619
+Epoch 2 | Batch 460/830 | Loss: 1.9345
+Epoch 2 | Batch 465/830 | Loss: 1.5122
+Epoch 2 | Batch 470/830 | Loss: 2.1653
+Epoch 2 | Batch 475/830 | Loss: 1.6739
+Epoch 2 | Batch 480/830 | Loss: 2.6551
+Epoch 2 | Batch 485/830 | Loss: 1.8546
+Epoch 2 | Batch 490/830 | Loss: 1.8715
+Epoch 2 | Batch 495/830 | Loss: 3.3118
+Epoch 2 | Batch 500/830 | Loss: 2.2120
+Epoch 2 | Batch 505/830 | Loss: 1.8703
+Epoch 2 | Batch 510/830 | Loss: 2.4933
+Epoch 2 | Batch 515/830 | Loss: 1.5188
+Epoch 2 | Batch 520/830 | Loss: 2.3561
+Epoch 2 | Batch 525/830 | Loss: 3.2736
+Epoch 2 | Batch 530/830 | Loss: 2.3851
+Epoch 2 | Batch 535/830 | Loss: 2.1681
+Epoch 2 | Batch 540/830 | Loss: 1.8177
+Epoch 2 | Batch 545/830 | Loss: 2.1394
+Epoch 2 | Batch 550/830 | Loss: 2.0271
+Epoch 2 | Batch 555/830 | Loss: 1.8967
+Epoch 2 | Batch 560/830 | Loss: 2.3711
+Epoch 2 | Batch 565/830 | Loss: 1.2910
+Epoch 2 | Batch 570/830 | Loss: 2.4915
+Epoch 2 | Batch 575/830 | Loss: 2.4206
+Epoch 2 | Batch 580/830 | Loss: 2.8049
+Epoch 2 | Batch 585/830 | Loss: 1.7410
+Epoch 2 | Batch 590/830 | Loss: 1.9130
+Epoch 2 | Batch 595/830 | Loss: 2.7826
+Epoch 2 | Batch 600/830 | Loss: 1.8325
+Epoch 2 | Batch 605/830 | Loss: 1.5603
+Epoch 2 | Batch 610/830 | Loss: 2.2838
+Epoch 2 | Batch 615/830 | Loss: 2.2445
+Epoch 2 | Batch 620/830 | Loss: 1.8980
+Epoch 2 | Batch 625/830 | Loss: 2.3369
+Epoch 2 | Batch 630/830 | Loss: 1.9319
+Epoch 2 | Batch 635/830 | Loss: 2.6615
+Epoch 2 | Batch 640/830 | Loss: 2.5383
+Epoch 2 | Batch 645/830 | Loss: 3.1064
+Epoch 2 | Batch 650/830 | Loss: 2.0207
+Epoch 2 | Batch 655/830 | Loss: 1.9256
+Epoch 2 | Batch 660/830 | Loss: 1.7613
+Epoch 2 | Batch 665/830 | Loss: 2.8506
+Epoch 2 | Batch 670/830 | Loss: 2.4773
+Epoch 2 | Batch 675/830 | Loss: 3.6349
+Epoch 2 | Batch 680/830 | Loss: 1.7965
+Epoch 2 | Batch 685/830 | Loss: 2.6688
+Epoch 2 | Batch 690/830 | Loss: 1.9050
+Epoch 2 | Batch 695/830 | Loss: 2.1724
+Epoch 2 | Batch 700/830 | Loss: 1.8362
+Epoch 2 | Batch 705/830 | Loss: 1.3076
+Epoch 2 | Batch 710/830 | Loss: 3.5323
+Epoch 2 | Batch 715/830 | Loss: 1.2050
+Epoch 2 | Batch 720/830 | Loss: 1.8010
+Epoch 2 | Batch 725/830 | Loss: 2.5467
+Epoch 2 | Batch 730/830 | Loss: 1.7519
+Epoch 2 | Batch 735/830 | Loss: 1.9997
+Epoch 2 | Batch 740/830 | Loss: 1.8551
+Epoch 2 | Batch 745/830 | Loss: 1.9554
+Epoch 2 | Batch 750/830 | Loss: 2.5619
+Epoch 2 | Batch 755/830 | Loss: 2.0848
+Epoch 2 | Batch 760/830 | Loss: 2.6648
+Epoch 2 | Batch 765/830 | Loss: 2.8556
+Epoch 2 | Batch 770/830 | Loss: 2.4732
+Epoch 2 | Batch 775/830 | Loss: 2.0282
+Epoch 2 | Batch 780/830 | Loss: 1.8504
+Epoch 2 | Batch 785/830 | Loss: 1.5935
+Epoch 2 | Batch 790/830 | Loss: 2.0813
+Epoch 2 | Batch 795/830 | Loss: 2.3124
+Epoch 2 | Batch 800/830 | Loss: 2.4712
+Epoch 2 | Batch 805/830 | Loss: 2.3893
+Epoch 2 | Batch 810/830 | Loss: 1.9451
+Epoch 2 | Batch 815/830 | Loss: 2.5349
+Epoch 2 | Batch 820/830 | Loss: 2.1714
+Epoch 2 | Batch 825/830 | Loss: 2.3549
+--- Epoch 2 Complete | Val Loss: 2.2777 | Val Accuracy: 27.82% ---
+Epoch 3 | Batch 0/830 | Loss: 3.1866
+Epoch 3 | Batch 5/830 | Loss: 2.1355
+Epoch 3 | Batch 10/830 | Loss: 1.7437
+Epoch 3 | Batch 15/830 | Loss: 2.2161
+Epoch 3 | Batch 20/830 | Loss: 2.1626
+Epoch 3 | Batch 25/830 | Loss: 1.9349
+Epoch 3 | Batch 30/830 | Loss: 1.6576
+Epoch 3 | Batch 35/830 | Loss: 2.1970
+Epoch 3 | Batch 40/830 | Loss: 2.7688
+Epoch 3 | Batch 45/830 | Loss: 3.0113
+Epoch 3 | Batch 50/830 | Loss: 2.8038
+Epoch 3 | Batch 55/830 | Loss: 2.7286
+Epoch 3 | Batch 60/830 | Loss: 2.3265
+Epoch 3 | Batch 65/830 | Loss: 1.9007
+Epoch 3 | Batch 70/830 | Loss: 2.2654
+Epoch 3 | Batch 75/830 | Loss: 1.8266
+Epoch 3 | Batch 80/830 | Loss: 2.0775
+Epoch 3 | Batch 85/830 | Loss: 2.8106
+Epoch 3 | Batch 90/830 | Loss: 2.5408
+Epoch 3 | Batch 95/830 | Loss: 2.3849
+Epoch 3 | Batch 100/830 | Loss: 2.1821
+Epoch 3 | Batch 105/830 | Loss: 3.0214
+Epoch 3 | Batch 110/830 | Loss: 1.3059
+Epoch 3 | Batch 115/830 | Loss: 2.1232
+Epoch 3 | Batch 120/830 | Loss: 1.5028
+Epoch 3 | Batch 125/830 | Loss: 2.3771
+Epoch 3 | Batch 130/830 | Loss: 2.2006
+Epoch 3 | Batch 135/830 | Loss: 1.9216
+Epoch 3 | Batch 140/830 | Loss: 2.5252
+Epoch 3 | Batch 145/830 | Loss: 1.9075
+Epoch 3 | Batch 150/830 | Loss: 2.0121
+Epoch 3 | Batch 155/830 | Loss: 2.3366
+Epoch 3 | Batch 160/830 | Loss: 1.7054
+Epoch 3 | Batch 165/830 | Loss: 2.2957
+Epoch 3 | Batch 170/830 | Loss: 2.7207
+Epoch 3 | Batch 175/830 | Loss: 1.7816
+Epoch 3 | Batch 180/830 | Loss: 2.0352
+Epoch 3 | Batch 185/830 | Loss: 2.7307
+Epoch 3 | Batch 190/830 | Loss: 2.6499
+Epoch 3 | Batch 195/830 | Loss: 1.8771
+Epoch 3 | Batch 200/830 | Loss: 2.0928
+Epoch 3 | Batch 205/830 | Loss: 2.7818
+Epoch 3 | Batch 210/830 | Loss: 1.9895
+Epoch 3 | Batch 215/830 | Loss: 2.8624
+Epoch 3 | Batch 220/830 | Loss: 2.4301
+Epoch 3 | Batch 225/830 | Loss: 1.4148
+Epoch 3 | Batch 230/830 | Loss: 1.9697
+Epoch 3 | Batch 235/830 | Loss: 2.2044
+Epoch 3 | Batch 240/830 | Loss: 2.2560
+Epoch 3 | Batch 245/830 | Loss: 2.5580
+Epoch 3 | Batch 250/830 | Loss: 1.8977
+Epoch 3 | Batch 255/830 | Loss: 2.2722
+Epoch 3 | Batch 260/830 | Loss: 2.5420
+Epoch 3 | Batch 265/830 | Loss: 1.8534
+Epoch 3 | Batch 270/830 | Loss: 2.3116
+Epoch 3 | Batch 275/830 | Loss: 2.8807
+Epoch 3 | Batch 280/830 | Loss: 1.6825
+Epoch 3 | Batch 285/830 | Loss: 2.2916
+Epoch 3 | Batch 290/830 | Loss: 1.2525
+Epoch 3 | Batch 295/830 | Loss: 2.5733
+Epoch 3 | Batch 300/830 | Loss: 1.9991
+Epoch 3 | Batch 305/830 | Loss: 1.9818
+Epoch 3 | Batch 310/830 | Loss: 2.3243
+Epoch 3 | Batch 315/830 | Loss: 2.2192
+Epoch 3 | Batch 320/830 | Loss: 2.4992
+Epoch 3 | Batch 325/830 | Loss: 2.2157
+Epoch 3 | Batch 330/830 | Loss: 2.2634
+Epoch 3 | Batch 335/830 | Loss: 2.0893
+Epoch 3 | Batch 340/830 | Loss: 3.3749
+Epoch 3 | Batch 345/830 | Loss: 1.6713
+Epoch 3 | Batch 350/830 | Loss: 1.5830
+Epoch 3 | Batch 355/830 | Loss: 2.2871
+Epoch 3 | Batch 360/830 | Loss: 2.5657
+Epoch 3 | Batch 365/830 | Loss: 1.5734
+Epoch 3 | Batch 370/830 | Loss: 1.6614
+Epoch 3 | Batch 375/830 | Loss: 2.1137
+Epoch 3 | Batch 380/830 | Loss: 2.5246
+Epoch 3 | Batch 385/830 | Loss: 2.7766
+Epoch 3 | Batch 390/830 | Loss: 2.7819
+Epoch 3 | Batch 395/830 | Loss: 2.7504
+Epoch 3 | Batch 400/830 | Loss: 1.6116
+Epoch 3 | Batch 405/830 | Loss: 2.1228
+Epoch 3 | Batch 410/830 | Loss: 2.4794
+Epoch 3 | Batch 415/830 | Loss: 1.5358
+Epoch 3 | Batch 420/830 | Loss: 2.9028
+Epoch 3 | Batch 425/830 | Loss: 3.1225
+Epoch 3 | Batch 430/830 | Loss: 2.1800
+Epoch 3 | Batch 435/830 | Loss: 3.5703
+Epoch 3 | Batch 440/830 | Loss: 1.6063
+Epoch 3 | Batch 445/830 | Loss: 2.0549
+Epoch 3 | Batch 450/830 | Loss: 1.9899
+Epoch 3 | Batch 455/830 | Loss: 2.2834
+Epoch 3 | Batch 460/830 | Loss: 2.9556
+Epoch 3 | Batch 465/830 | Loss: 1.8772
+Epoch 3 | Batch 470/830 | Loss: 1.7386
+Epoch 3 | Batch 475/830 | Loss: 2.7670
+Epoch 3 | Batch 480/830 | Loss: 1.8218
+Epoch 3 | Batch 485/830 | Loss: 1.8736
+Epoch 3 | Batch 490/830 | Loss: 1.2896
+Epoch 3 | Batch 495/830 | Loss: 2.4174
+Epoch 3 | Batch 500/830 | Loss: 2.4597
+Epoch 3 | Batch 505/830 | Loss: 2.3047
+Epoch 3 | Batch 510/830 | Loss: 2.7779
+Epoch 3 | Batch 515/830 | Loss: 1.6270
+Epoch 3 | Batch 520/830 | Loss: 2.3209
+Epoch 3 | Batch 525/830 | Loss: 1.5809
+Epoch 3 | Batch 530/830 | Loss: 2.5246
+Epoch 3 | Batch 535/830 | Loss: 3.3718
+Epoch 3 | Batch 540/830 | Loss: 2.6173
+Epoch 3 | Batch 545/830 | Loss: 2.3777
+Epoch 3 | Batch 550/830 | Loss: 1.5648
+Traceback (most recent call last):
+  File "C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py", line 282, in train
+    criterion = nn.CrossEntropyLoss(weight=weight)
+  File "C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py", line 209, in train_model
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main\pytorchvideo\models\net.py", line 43, in forward
+    x = block(x)
+        ^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main\pytorchvideo\models\net.py", line 117, in forward
+    x_out[pathway_idx] = self.multipathway_blocks[pathway_idx](
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main\pytorchvideo\models\resnet.py", line 1399, in forward
+    x = res_block(x)
+        ^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main\pytorchvideo\models\resnet.py", line 1181, in forward
+    x = self.branch_fusion(x, self.branch2(x))
+                              ^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main\pytorchvideo\models\resnet.py", line 1364, in forward
+    x = self.norm_c(x)
+        ^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\batchnorm.py", line 190, in forward
+    self.num_batches_tracked.add_(1)  # type: ignore[has-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

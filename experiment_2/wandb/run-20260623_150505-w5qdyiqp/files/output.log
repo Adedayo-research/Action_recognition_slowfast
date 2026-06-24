@@ -1,0 +1,22 @@
+
+--- Initializing Active Sweep Run on Target Device: cuda ---
+Loading pretrained SlowFast R50 from Torch Hub...
+Using cache found in C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main
+Indexing train set...
+Safely indexed 3319 action points in train split.
+Indexing valid set...
+Safely indexed 985 action points in valid split.
+C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py:203: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+Epoch 1/15 (Train):   0%|          | 0/208 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py:215: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Validation:   0%|          | 0/62 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py:184: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+                                                                     
+--- Epoch 0 Complete | Val Loss: 2.2763 | Val Accuracy: 27.82% ---
+--- Epoch 1 Complete | Val Loss: 2.2634 | Val Accuracy: 27.82% ---
+--- Epoch 2 Complete | Val Loss: 2.2644 | Val Accuracy: 27.82% ---
+--- Epoch 3 Complete | Val Loss: 2.2741 | Val Accuracy: 27.82% ---
+--- Epoch 4 Complete | Val Loss: 2.2692 | Val Accuracy: 27.82% ---
+--- Epoch 5 Complete | Val Loss: 2.2724 | Val Accuracy: 27.82% ---
+--- Epoch 6 Complete | Val Loss: 2.2715 | Val Accuracy: 27.82% ---

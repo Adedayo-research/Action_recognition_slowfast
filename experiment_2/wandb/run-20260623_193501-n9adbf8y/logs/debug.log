@@ -1,0 +1,25 @@
+2026-06-23 19:35:01,882 INFO    Thread-13 (_run_job):472 [wandb_setup.py:_flush():81] Current SDK version is 0.27.0
+2026-06-23 19:35:01,882 INFO    Thread-13 (_run_job):472 [wandb_setup.py:_flush():81] Configure stats pid to 472
+2026-06-23 19:35:01,882 INFO    Thread-13 (_run_job):472 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-23 19:35:01,882 INFO    Thread-13 (_run_job):472 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\wandb\run-20260623_193501-n9adbf8y\logs\debug.log
+2026-06-23 19:35:01,882 INFO    Thread-13 (_run_job):472 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\wandb\run-20260623_193501-n9adbf8y\logs\debug-internal.log
+2026-06-23 19:35:01,882 INFO    Thread-13 (_run_job):472 [wandb_init.py:init():851] calling init triggers
+2026-06-23 19:35:01,882 INFO    Thread-13 (_run_job):472 [wandb_init.py:init():856] wandb.init called with sweep_config: {'action_weight_multiplier': 4, 'architecture': 'SlowFast', 'batch_size': 16, 'dataset': 'SoccerNet-v2', 'epochs': 15, 'focal_gamma': 1.5, 'learning_rate': 0.0001, 'loss_type': 'focal_loss'}
+config: {'_wandb': {}}
+2026-06-23 19:35:01,882 INFO    Thread-13 (_run_job):472 [wandb_init.py:init():899] starting backend
+2026-06-23 19:35:04,390 INFO    Thread-13 (_run_job):472 [wandb_init.py:init():914] sending inform_init request
+2026-06-23 19:35:04,751 INFO    Thread-13 (_run_job):472 [wandb_init.py:init():919] backend started and connected
+2026-06-23 19:35:04,757 INFO    Thread-13 (_run_job):472 [wandb_run.py:_config_callback():1332] config_cb None None {'action_weight_multiplier': 4, 'architecture': 'SlowFast', 'batch_size': 16, 'dataset': 'SoccerNet-v2', 'epochs': 15, 'focal_gamma': 1.5, 'learning_rate': 0.0001, 'loss_type': 'focal_loss'}
+2026-06-23 19:35:04,811 INFO    Thread-13 (_run_job):472 [wandb_init.py:init():989] updated telemetry
+2026-06-23 19:35:04,814 INFO    Thread-13 (_run_job):472 [wandb_init.py:init():1012] communicating run to backend with 90.0 second timeout
+2026-06-23 19:35:05,096 INFO    Thread-13 (_run_job):472 [wandb_init.py:init():1057] starting run threads in backend
+2026-06-23 19:35:05,290 INFO    Thread-13 (_run_job):472 [wandb_run.py:_console_start():2509] atexit reg
+2026-06-23 19:35:05,291 INFO    Thread-13 (_run_job):472 [wandb_run.py:_redirect():2359] redirect: wrap_raw
+2026-06-23 19:35:05,294 INFO    Thread-13 (_run_job):472 [wandb_run.py:_redirect():2428] Wrapping output streams.
+2026-06-23 19:35:05,294 INFO    Thread-13 (_run_job):472 [wandb_run.py:_redirect():2451] Redirects installed.
+2026-06-23 19:35:05,295 INFO    Thread-13 (_run_job):472 [wandb_init.py:init():1095] run started, returning control to user process
+2026-06-23 20:13:29,226 INFO    Thread-13 (_run_job):472 [wandb_run.py:_finish():2271] finishing run 25817442-edge-hill-university/slowfast_frozen_backbone_fixed/n9adbf8y
+2026-06-23 20:13:29,233 INFO    Thread-13 (_run_job):472 [wandb_run.py:_atexit_cleanup():2476] got exitcode: 0
+2026-06-23 20:13:29,241 INFO    Thread-13 (_run_job):472 [wandb_run.py:_restore():2458] restore
+2026-06-23 20:13:29,242 INFO    Thread-13 (_run_job):472 [wandb_run.py:_restore():2464] restore done
+2026-06-23 20:13:31,017 INFO    Thread-13 (_run_job):472 [wandb_run.py:_footer_sync_info():3877] logging synced files

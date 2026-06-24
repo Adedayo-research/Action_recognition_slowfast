@@ -1,0 +1,36 @@
+{
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "CPython 3.11.9",
+  "startedAt": "2026-06-23T01:57:17.051403Z",
+  "program": "C:\\Users\\omoni\\Desktop\\experiments\\Action_recognition_slowfast\\experiment_2\\training_frozen_backbone.py",
+  "codePath": "Action_recognition_slowfast\\experiment_2\\training_frozen_backbone.py",
+  "codePathLocal": "training_frozen_backbone.py",
+  "email": "25817442@edgehill.ac.uk",
+  "root": "C:\\Users\\omoni\\Desktop\\experiments\\Action_recognition_slowfast\\experiment_2",
+  "host": "ADEDAYO",
+  "executable": "C:\\Users\\omoni\\Desktop\\experiments\\.venv\\Scripts\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "510481395712",
+      "used": "243054788608"
+    }
+  },
+  "memory": {
+    "total": "16437858304"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "memoryTotal": "8546942976",
+      "cudaCores": 3328,
+      "architecture": "Blackwell",
+      "uuid": "GPU-7d75cc92-3736-f028-559d-1d149bf18e9c"
+    }
+  ],
+  "cudaVersion": "13.3",
+  "writerId": "gjmsruk95iok61ols068rb3agsozsfum"
+}

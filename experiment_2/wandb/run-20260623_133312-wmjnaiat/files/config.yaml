@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.27.0
+        e:
+            mmap8cc3g0oofdhje2rxe6gnk6flcxc9:
+                codePath: Action_recognition_slowfast\experiment_2\training_frozen_backbone.py
+                codePathLocal: training_frozen_backbone.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.3"
+                disk:
+                    /:
+                        total: "510481395712"
+                        used: "244083712000"
+                email: 25817442@edgehill.ac.uk
+                executable: C:\Users\omoni\Desktop\experiments\.venv\Scripts\python.exe
+                gpu: NVIDIA GeForce RTX 5060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 3328
+                      memoryTotal: "8546942976"
+                      name: NVIDIA GeForce RTX 5060 Laptop GPU
+                      uuid: GPU-7d75cc92-3736-f028-559d-1d149bf18e9c
+                host: ADEDAYO
+                memory:
+                    total: "16437858304"
+                os: Windows-10-10.0.26200-SP0
+                program: C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py
+                python: CPython 3.11.9
+                root: C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2
+                startedAt: "2026-06-23T12:33:12.575422Z"
+                writerId: mmap8cc3g0oofdhje2rxe6gnk6flcxc9
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 29
+                - 41
+            "2":
+                - 1
+                - 29
+                - 41
+            "3":
+                - 2
+                - 14
+            "4": 3.11.9
+            "5": 0.27.0
+            "8":
+                - 3
+            "12": 0.27.0
+            "13": windows-amd64
+action_weight_multiplier:
+    value:
+        - 4
+architecture:
+    value: SlowFast
+batch_size:
+    value:
+        - 4
+dataset:
+    value: SoccerNet-v2
+epochs:
+    value: 15
+focal_gamma:
+    value: 1.5
+learning_rate:
+    value:
+        - 0.0001
+loss_type:
+    value: focal_loss

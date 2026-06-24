@@ -1,0 +1,19 @@
+# Virtual Environments
+.venv/
+venv/
+
+# Large Datasets and Videos
+SoccerNet_Dataset/
+public_dataset/
+*.avi
+*.mp4
+*.mkv
+
+# Model Checkpoints (Too large for GitHub)
+checkpoints/
+*.pth
+*.pt
+
+# Python Caches
+__pycache__/
+*.pyc

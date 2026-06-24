@@ -1,0 +1,44 @@
+
+--- Initializing Active Sweep Run on Target Device: cuda ---
+Loading pretrained SlowFast R50 from Torch Hub...
+Using cache found in C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main
+Indexing train set...
+Safely indexed 3319 action points in train split.
+Indexing valid set...
+Safely indexed 985 action points in valid split.
+
+Computed class weights (inverse-frequency):
+  Class 0: weight=1.000 (count=0)
+  Class 1: weight=0.185 (count=997)
+  Class 2: weight=0.805 (count=229)
+  Class 3: weight=1.042 (count=177)
+  Class 4: weight=3.179 (count=58)
+  Class 5: weight=0.533 (count=346)
+  Class 6: weight=4.098 (count=45)
+  Class 7: weight=0.732 (count=252)
+  Class 8: weight=1.000 (count=0)
+  Class 9: weight=2.526 (count=73)
+  Class 10: weight=3.615 (count=51)
+  Class 11: weight=61.463 (count=3)
+  Class 12: weight=61.463 (count=3)
+  Class 13: weight=1.386 (count=133)
+  Class 14: weight=0.886 (count=208)
+  Class 15: weight=2.249 (count=82)
+  Class 16: weight=0.304 (count=607)
+  Class 17: weight=3.353 (count=55)
+C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py:213: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+Epoch 1/15 (Train):   0%|          | 0/208 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py:225: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Validation:   0%|          | 0/62 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py:194: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 8/15 (Train):  23%|##3       | 48/208 [00:59<20:04,  7.53s/it]wandb: Network error (ConnectionError), entering retry loop.
+--- Epoch 0 Complete | Val Loss: 2.6119 | Val Accuracy: 18.07% ---
+--- Epoch 1 Complete | Val Loss: 2.5813 | Val Accuracy: 22.94% ---
+--- Epoch 2 Complete | Val Loss: 2.5443 | Val Accuracy: 20.71% ---
+--- Epoch 3 Complete | Val Loss: 2.5254 | Val Accuracy: 20.51% ---
+--- Epoch 4 Complete | Val Loss: 2.5093 | Val Accuracy: 21.52% ---
+--- Epoch 5 Complete | Val Loss: 2.5035 | Val Accuracy: 20.00% ---
+--- Epoch 6 Complete | Val Loss: 2.5092 | Val Accuracy: 27.92% ---
+Epoch 8/15 (Train):  34%|###3      | 70/208 [2:58:00<13:18,  5.78s/it]wandb: Network error (ConnectionError), entering retry loop.
+Validation:  82%|########2 | 51/62 [00:33<00:05,  2.18it/s]            

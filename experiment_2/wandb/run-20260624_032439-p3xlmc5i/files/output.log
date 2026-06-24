@@ -1,0 +1,181 @@
+
+--- Initializing Active Sweep Run on Target Device: cuda ---
+Loading pretrained SlowFast R50 from Torch Hub...
+Using cache found in C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main
+Indexing train set...
+Safely indexed 3319 action points in train split.
+Indexing valid set...
+Safely indexed 985 action points in valid split.
+
+Computed class weights (inverse-frequency):
+  Class 0: weight=1.000 (count=0)
+  Class 1: weight=0.185 (count=997)
+  Class 2: weight=0.805 (count=229)
+  Class 3: weight=1.042 (count=177)
+  Class 4: weight=3.179 (count=58)
+  Class 5: weight=0.533 (count=346)
+  Class 6: weight=4.098 (count=45)
+  Class 7: weight=0.732 (count=252)
+  Class 8: weight=1.000 (count=0)
+  Class 9: weight=2.526 (count=73)
+  Class 10: weight=3.615 (count=51)
+  Class 11: weight=61.463 (count=3)
+  Class 12: weight=61.463 (count=3)
+  Class 13: weight=1.386 (count=133)
+  Class 14: weight=0.886 (count=208)
+  Class 15: weight=2.249 (count=82)
+  Class 16: weight=0.304 (count=607)
+  Class 17: weight=3.353 (count=55)
+C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:226: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+Epoch 1/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 2/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 0 Complete | Val Loss: 1.7846 | Val Acc: 32.69% | Val F1: 0.0826 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_0.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 3/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 1 Complete | Val Loss: 1.8301 | Val Acc: 30.96% | Val F1: 0.1039 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_1.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 4/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 2 Complete | Val Loss: 2.0122 | Val Acc: 30.15% | Val F1: 0.1492 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_2.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 5/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 3 Complete | Val Loss: 2.0791 | Val Acc: 30.96% | Val F1: 0.1478 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_3.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 6/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 4 Complete | Val Loss: 2.0668 | Val Acc: 31.57% | Val F1: 0.1460 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_4.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 7/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 5 Complete | Val Loss: 2.0809 | Val Acc: 31.27% | Val F1: 0.1459 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_5.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 8/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 6 Complete | Val Loss: 2.0175 | Val Acc: 30.66% | Val F1: 0.1471 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_6.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 9/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 7 Complete | Val Loss: 2.0481 | Val Acc: 31.57% | Val F1: 0.1483 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_7.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 10/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 8 Complete | Val Loss: 1.9182 | Val Acc: 31.68% | Val F1: 0.1459 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_8.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 11/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 9 Complete | Val Loss: 1.9677 | Val Acc: 31.57% | Val F1: 0.1397 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_9.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 12/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 10 Complete | Val Loss: 2.0564 | Val Acc: 29.54% | Val F1: 0.1427 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_10.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 13/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 11 Complete | Val Loss: 1.9721 | Val Acc: 30.15% | Val F1: 0.1443 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_11.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 14/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 12 Complete | Val Loss: 1.9273 | Val Acc: 30.46% | Val F1: 0.1421 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_12.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 15/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 13 Complete | Val Loss: 1.8947 | Val Acc: 31.88% | Val F1: 0.1475 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_13.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 16/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 14 Complete | Val Loss: 1.9498 | Val Acc: 31.78% | Val F1: 0.1516 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_14.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 17/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 15 Complete | Val Loss: 2.0780 | Val Acc: 31.47% | Val F1: 0.1514 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_15.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 18/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 16 Complete | Val Loss: 1.9729 | Val Acc: 31.98% | Val F1: 0.1478 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_16.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 19/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 17 Complete | Val Loss: 1.9462 | Val Acc: 31.88% | Val F1: 0.1480 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_17.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 20/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 18 Complete | Val Loss: 1.9988 | Val Acc: 31.07% | Val F1: 0.1494 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_18.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 21/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 19 Complete | Val Loss: 1.9569 | Val Acc: 31.17% | Val F1: 0.1427 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_19.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 22/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 20 Complete | Val Loss: 1.9859 | Val Acc: 31.07% | Val F1: 0.1472 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_20.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 23/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 21 Complete | Val Loss: 1.9868 | Val Acc: 30.86% | Val F1: 0.1444 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_21.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 24/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 22 Complete | Val Loss: 2.0414 | Val Acc: 30.86% | Val F1: 0.1403 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_22.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 25/25 (Train):   0%|          | 0/1660 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:238: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 23 Complete | Val Loss: 1.9108 | Val Acc: 31.27% | Val F1: 0.1375 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_23.pth
+  with autocast():
+Validation:   0%|          | 0/493 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_blocks4_5.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+                                                             
+--- Epoch 24 Complete | Val Loss: 1.9819 | Val Acc: 31.27% | Val F1: 0.1431 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2d_unfrozen_blocks4_5\unfrozen_blocks45_bs2_lr5e-05_focal_loss_epoch_24.pth

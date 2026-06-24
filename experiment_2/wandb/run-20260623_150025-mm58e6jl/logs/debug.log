@@ -1,0 +1,20 @@
+2026-06-23 15:00:25,194 INFO    Thread-8 (_run_job):30628 [wandb_setup.py:_flush():81] Current SDK version is 0.27.0
+2026-06-23 15:00:25,194 INFO    Thread-8 (_run_job):30628 [wandb_setup.py:_flush():81] Configure stats pid to 30628
+2026-06-23 15:00:25,194 INFO    Thread-8 (_run_job):30628 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-23 15:00:25,194 INFO    Thread-8 (_run_job):30628 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\wandb\run-20260623_150025-mm58e6jl\logs\debug.log
+2026-06-23 15:00:25,194 INFO    Thread-8 (_run_job):30628 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\wandb\run-20260623_150025-mm58e6jl\logs\debug-internal.log
+2026-06-23 15:00:25,195 INFO    Thread-8 (_run_job):30628 [wandb_init.py:init():851] calling init triggers
+2026-06-23 15:00:25,195 INFO    Thread-8 (_run_job):30628 [wandb_init.py:init():856] wandb.init called with sweep_config: {'action_weight_multiplier': 4, 'architecture': 'SlowFast', 'batch_size': 16, 'dataset': 'SoccerNet-v2', 'epochs': 15, 'focal_gamma': 1.5, 'learning_rate': 0.0001, 'loss_type': 'cross_entropy'}
+config: {'_wandb': {}}
+2026-06-23 15:00:25,195 INFO    Thread-8 (_run_job):30628 [wandb_init.py:init():899] starting backend
+2026-06-23 15:00:28,395 INFO    Thread-8 (_run_job):30628 [wandb_init.py:init():914] sending inform_init request
+2026-06-23 15:00:28,769 INFO    Thread-8 (_run_job):30628 [wandb_init.py:init():919] backend started and connected
+2026-06-23 15:00:28,769 INFO    Thread-8 (_run_job):30628 [wandb_run.py:_config_callback():1332] config_cb None None {'action_weight_multiplier': 4, 'architecture': 'SlowFast', 'batch_size': 16, 'dataset': 'SoccerNet-v2', 'epochs': 15, 'focal_gamma': 1.5, 'learning_rate': 0.0001, 'loss_type': 'cross_entropy'}
+2026-06-23 15:00:28,770 INFO    Thread-8 (_run_job):30628 [wandb_init.py:init():989] updated telemetry
+2026-06-23 15:00:28,771 INFO    Thread-8 (_run_job):30628 [wandb_init.py:init():1012] communicating run to backend with 90.0 second timeout
+2026-06-23 15:00:29,459 INFO    Thread-8 (_run_job):30628 [wandb_init.py:init():1057] starting run threads in backend
+2026-06-23 15:00:29,648 INFO    Thread-8 (_run_job):30628 [wandb_run.py:_console_start():2509] atexit reg
+2026-06-23 15:00:29,648 INFO    Thread-8 (_run_job):30628 [wandb_run.py:_redirect():2359] redirect: wrap_raw
+2026-06-23 15:00:29,649 INFO    Thread-8 (_run_job):30628 [wandb_run.py:_redirect():2428] Wrapping output streams.
+2026-06-23 15:00:29,649 INFO    Thread-8 (_run_job):30628 [wandb_run.py:_redirect():2451] Redirects installed.
+2026-06-23 15:00:29,651 INFO    Thread-8 (_run_job):30628 [wandb_init.py:init():1095] run started, returning control to user process

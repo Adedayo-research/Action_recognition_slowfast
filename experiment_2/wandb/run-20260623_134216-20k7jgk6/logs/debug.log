@@ -1,0 +1,96 @@
+2026-06-23 13:42:16,215 INFO    Thread-8 (_run_job):24032 [wandb_setup.py:_flush():81] Current SDK version is 0.27.0
+2026-06-23 13:42:16,215 INFO    Thread-8 (_run_job):24032 [wandb_setup.py:_flush():81] Configure stats pid to 24032
+2026-06-23 13:42:16,215 INFO    Thread-8 (_run_job):24032 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-23 13:42:16,215 INFO    Thread-8 (_run_job):24032 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\wandb\run-20260623_134216-20k7jgk6\logs\debug.log
+2026-06-23 13:42:16,216 INFO    Thread-8 (_run_job):24032 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\wandb\run-20260623_134216-20k7jgk6\logs\debug-internal.log
+2026-06-23 13:42:16,216 INFO    Thread-8 (_run_job):24032 [wandb_init.py:init():851] calling init triggers
+2026-06-23 13:42:16,216 INFO    Thread-8 (_run_job):24032 [wandb_init.py:init():856] wandb.init called with sweep_config: {'action_weight_multiplier': 4, 'architecture': 'SlowFast', 'batch_size': 4, 'dataset': 'SoccerNet-v2', 'epochs': 15, 'focal_gamma': 1.5, 'learning_rate': 0.0001, 'loss_type': 'cross_entropy'}
+config: {'_wandb': {}}
+2026-06-23 13:42:16,216 INFO    Thread-8 (_run_job):24032 [wandb_init.py:init():899] starting backend
+2026-06-23 13:42:19,006 INFO    Thread-8 (_run_job):24032 [wandb_init.py:init():914] sending inform_init request
+2026-06-23 13:42:19,414 INFO    Thread-8 (_run_job):24032 [wandb_init.py:init():919] backend started and connected
+2026-06-23 13:42:19,415 INFO    Thread-8 (_run_job):24032 [wandb_run.py:_config_callback():1332] config_cb None None {'action_weight_multiplier': 4, 'architecture': 'SlowFast', 'batch_size': 4, 'dataset': 'SoccerNet-v2', 'epochs': 15, 'focal_gamma': 1.5, 'learning_rate': 0.0001, 'loss_type': 'cross_entropy'}
+2026-06-23 13:42:19,415 INFO    Thread-8 (_run_job):24032 [wandb_init.py:init():989] updated telemetry
+2026-06-23 13:42:19,418 INFO    Thread-8 (_run_job):24032 [wandb_init.py:init():1012] communicating run to backend with 90.0 second timeout
+2026-06-23 13:42:19,655 INFO    Thread-8 (_run_job):24032 [wandb_init.py:init():1057] starting run threads in backend
+2026-06-23 13:42:19,784 INFO    Thread-8 (_run_job):24032 [wandb_run.py:_console_start():2509] atexit reg
+2026-06-23 13:42:19,784 INFO    Thread-8 (_run_job):24032 [wandb_run.py:_redirect():2359] redirect: wrap_raw
+2026-06-23 13:42:19,784 INFO    Thread-8 (_run_job):24032 [wandb_run.py:_redirect():2428] Wrapping output streams.
+2026-06-23 13:42:19,784 INFO    Thread-8 (_run_job):24032 [wandb_run.py:_redirect():2451] Redirects installed.
+2026-06-23 13:42:19,787 INFO    Thread-8 (_run_job):24032 [wandb_init.py:init():1095] run started, returning control to user process
+2026-06-23 14:04:15,623 INFO    Thread-7 (_heartbeat):24032 [retry.py:__call__():167] [no run ID] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.wandb.ai', port=443): Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("HTTPSConnection(host='api.wandb.ai', port=443): Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\wandb\sdk\lib\retry.py", line 160, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 71, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\requests\adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("HTTPSConnection(host='api.wandb.ai', port=443): Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))

@@ -1,0 +1,91 @@
+
+--- Initializing Active Sweep Run on Target Device: cuda ---
+Loading pretrained SlowFast R50 from Torch Hub...
+Using cache found in C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main
+Indexing train set...
+Safely indexed 3319 action points in train split.
+Indexing valid set...
+Safely indexed 985 action points in valid split.
+
+Computed class weights (inverse-frequency):
+  Class 0: weight=1.000 (count=0)
+  Class 1: weight=0.185 (count=997)
+  Class 2: weight=0.805 (count=229)
+  Class 3: weight=1.042 (count=177)
+  Class 4: weight=3.179 (count=58)
+  Class 5: weight=0.533 (count=346)
+  Class 6: weight=4.098 (count=45)
+  Class 7: weight=0.732 (count=252)
+  Class 8: weight=1.000 (count=0)
+  Class 9: weight=2.526 (count=73)
+  Class 10: weight=3.615 (count=51)
+  Class 11: weight=61.463 (count=3)
+  Class 12: weight=61.463 (count=3)
+  Class 13: weight=1.386 (count=133)
+  Class 14: weight=0.886 (count=208)
+  Class 15: weight=2.249 (count=82)
+  Class 16: weight=0.304 (count=607)
+  Class 17: weight=3.353 (count=55)
+C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:228: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+Epoch 1/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 2/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 0 Complete | Val Loss: 2.5405 | Val Acc: 28.43% | Val F1: 0.0754 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_0.pth
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 3/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 1 Complete | Val Loss: 2.4967 | Val Acc: 30.25% | Val F1: 0.0839 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_1.pth
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 4/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 2 Complete | Val Loss: 2.4665 | Val Acc: 29.64% | Val F1: 0.0859 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_2.pth
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 5/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 3 Complete | Val Loss: 2.4500 | Val Acc: 30.56% | Val F1: 0.0867 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_3.pth
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 6/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 4 Complete | Val Loss: 2.4345 | Val Acc: 28.02% | Val F1: 0.1069 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_4.pth
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 7/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 5 Complete | Val Loss: 2.4232 | Val Acc: 30.76% | Val F1: 0.1226 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_5.pth
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 8/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 6 Complete | Val Loss: 2.4242 | Val Acc: 30.76% | Val F1: 0.1037 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_6.pth
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 9/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 7 Complete | Val Loss: 2.4177 | Val Acc: 31.17% | Val F1: 0.1060 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_7.pth
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+Epoch 10/10 (Train):   0%|          | 0/830 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:240: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+--- Epoch 8 Complete | Val Loss: 2.4052 | Val Acc: 28.73% | Val F1: 0.1344 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_8.pth
+  with autocast():
+Validation:   0%|          | 0/247 [00:00<?, ?it/s]C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\scripts\training_unfrozen_backbone.py:202: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+                                                             
+--- Epoch 9 Complete | Val Loss: 2.4000 | Val Acc: 29.75% | Val F1: 0.1389 ---
+[Checkpoint saved] C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\checkpoints\exp2c_unfrozen\unfrozen_bs4_lr5e-05_cross_entropy_epoch_9.pth

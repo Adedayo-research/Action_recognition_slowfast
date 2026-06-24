@@ -1,0 +1,55 @@
+
+--- Initializing Active Sweep Agent Run on Device: cuda ---
+Using cache found in C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main
+Indexing train set...
+Indexing valid set...
+Traceback (most recent call last):
+  File "C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py", line 290, in train
+    train_model(model, train_loader, val_loader, optimizer, scheduler, config.epochs, criterion, device)
+  File "C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_2\training_frozen_backbone.py", line 225, in train_model
+    outputs = model(formatted_input)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main\pytorchvideo\models\net.py", line 43, in forward
+    x = block(x)
+        ^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main\pytorchvideo\models\net.py", line 117, in forward
+    x_out[pathway_idx] = self.multipathway_blocks[pathway_idx](
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni/.cache\torch\hub\facebookresearch_pytorchvideo_main\pytorchvideo\models\stem.py", line 253, in forward
+    x = self.conv(x)
+        ^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\conv.py", line 735, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omoni\Desktop\experiments\.venv\Lib\site-packages\torch\nn\modules\conv.py", line 730, in _conv_forward
+    return F.conv3d(
+           ^^^^^^^^^
+TypeError: conv3d() received an invalid combination of arguments - got (dict, Parameter, NoneType, tuple, tuple, tuple, int), but expected one of:
+ * (Tensor input, Tensor weight, Tensor bias = None, tuple of ints stride = 1, tuple of ints padding = 0, tuple of ints dilation = 1, int groups = 1)
+      didn't match because some of the arguments have invalid types: (!dict!, !Parameter!, !NoneType!, !tuple of (int, int, int)!, !tuple of (int, int, int)!, !tuple of (int, int, int)!, !int!)
+ * (Tensor input, Tensor weight, Tensor bias = None, tuple of ints stride = 1, str padding = "valid", tuple of ints dilation = 1, int groups = 1)
+      didn't match because some of the arguments have invalid types: (!dict!, !Parameter!, !NoneType!, !tuple of (int, int, int)!, !tuple of (int, int, int)!, !tuple of (int, int, int)!, !int!)

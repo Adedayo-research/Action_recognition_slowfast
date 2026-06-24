@@ -1,0 +1,18 @@
+wandb_version: 1
+
+action_weight_multiplier:
+  value: 4
+architecture:
+  value: SlowFast
+batch_size:
+  value: 4
+dataset:
+  value: SoccerNet-v2
+epochs:
+  value: 2
+focal_gamma:
+  value: 3
+learning_rate:
+  value: 0.001
+loss_type:
+  value: cross_entropy
