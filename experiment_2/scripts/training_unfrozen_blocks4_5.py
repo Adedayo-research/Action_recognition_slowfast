@@ -260,12 +260,9 @@ def train_model(model, train_loader, val_loader, optimizer, scheduler, num_epoch
         })
         print(f"--- Epoch {epoch} Complete | Val Loss: {val_loss:.4f} | Val Acc: {val_acc * 100:.2f}% | Val F1: {val_f1:.4f} ---")
 
-        # Save model checkpoint weight into new blocks4_5 folder
+        # Save model checkpoint weight directly to the NAS storage so it is not lost!
         run_name = wandb.run.name if wandb.run else "local"
-        ckpt_dir = os.path.join(
-            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-            "checkpoints", "exp2d_unfrozen_blocks4_5"
-        )
+        ckpt_dir = os.path.join(ROOT_PATH, "checkpoints", "exp2d_unfrozen_blocks4_5")
         os.makedirs(ckpt_dir, exist_ok=True)
         ckpt_path = os.path.join(ckpt_dir, f"{run_name}_epoch_{epoch}.pth")
         torch.save(model.state_dict(), ckpt_path)
