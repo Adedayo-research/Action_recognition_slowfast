@@ -1,6 +1,7 @@
 # Core ML/DL
 torch>=2.0.0
 torchvision>=0.15.0
+numpy<2.0.0
 
 # SoccerNet and Video Processing
 SoccerNet==0.1.48

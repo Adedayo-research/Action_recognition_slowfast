@@ -171,7 +171,7 @@ sweep_config = {
         'batch_size': {'value': 16},  # Increased to 16 for High-VRAM Cluster GPUs (A100/V100)!
         'learning_rate': {'value': 0.00005},
 
-        'epochs': {'value': 25}, # 25 epochs should be plenty to converge with more capacity
+        'epochs': {'value': 100}, # Increased to 100 epochs as requested by supervisor
 
         "architecture": {'value': "SlowFast_Unfrozen_Blocks4_5"},
         'loss_type': {'values': ["focal_loss"]},

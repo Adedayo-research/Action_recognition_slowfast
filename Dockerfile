@@ -1,6 +1,6 @@
 # Use the official NVIDIA PyTorch image as the base
-# This image already contains CUDA 11.8 and cuDNN baked into the OS
-FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
+# This image contains CUDA 12.4 and cuDNN 9 baked in, supporting Blackwell GPUs (sm_120)
+FROM pytorch/pytorch:2.4.0-cuda12.4-cudnn9-runtime
 
 # Prevent interactive prompts during apt installations
 ENV DEBIAN_FRONTEND=noninteractive

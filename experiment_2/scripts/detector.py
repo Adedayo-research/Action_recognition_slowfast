@@ -71,7 +71,7 @@ transform = transforms.Compose([
 # 2. FILE STREAM CHANNELS DEFINITION
 
 input_video = r"C:\Users\omoni\Desktop\experiments\Action_recognition_slowfast\experiment_1\public_dataset\val\Red card\Red Card6.avi"
-output_video = "crystal_palace_live_tracking_new.mp4"
+output_video = "crystal_palace_live_tracking_new1.mp4"
 
 cap = cv2.VideoCapture(input_video)
 
@@ -158,7 +158,7 @@ try:
         frame = cv2.addWeighted(hud_overlay, 0.6, frame, 0.4, 0)
 
         # Render anti-aliased studio caption
-        hud_text = f"Live Action Spotting State: {global_current_action}"
+        hud_text = f"Live Action Spotted: {global_current_action}"
         cv2.putText(frame, hud_text, (20, 32), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1, cv2.LINE_AA)
 
         # Save single output frame safely to your output file
