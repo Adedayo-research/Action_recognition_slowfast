@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/soccernet_slowfast:v1
+          tags: ${{ secrets.DOCKER_USERNAME }}/soccernet_slowfast:v2
